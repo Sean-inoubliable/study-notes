@@ -20,7 +20,7 @@ public class SelectionSort {
      *   空间复杂度 : 执行空间 , 算法需要用到的额外空间
      */
 
-    /* TODO: 优化点 : 1. 每次循环除最小值之外 , 找出最大值移动到数组末尾 */
+    /* TODO: 优化, 1. 每次循环除最小值之外 , 找出最大值移动到数组末尾 */
 
     public static void main(String[] args) {
         int[] arr = {9, 3, 1, 4, 6, 8, 7 ,5 ,2};

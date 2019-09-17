@@ -24,7 +24,6 @@ hs_err_pid*
 
 target/
 venv/
-src/main/resources/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
