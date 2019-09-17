@@ -6,7 +6,6 @@ package com.sean.sort;
  * @Date: 2019/9/16 0016 17:50
  */
 public class SortUtil {
-
     /**
      * @Description: 交换位置
      * @param   arr,i,j
@@ -19,7 +18,6 @@ public class SortUtil {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     /**
      * @Description: 遍历打印
      * @param   arr
