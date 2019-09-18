@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * @SourceCode  https://space.bilibili.com/406692798
+ * @SourceVideo  https://space.bilibili.com/406692798
  * @Description  随机样本产生器 + 对数器 ( 验证算法 )
  * @Author  S.Xinlei
  * @CreateDate: 2019/9/16 0016 15:35
@@ -19,7 +19,6 @@ public class DataChecker {
         3. 用确定正确的算法计算样本结果
         4. 对比被验证算法的结果
      */
-
 
     /**
      * @Description: 产生足够多的随机样本
@@ -58,6 +57,9 @@ public class DataChecker {
         Arrays.sort(arr);
         //SelectionSort.sort(arrCopy);
         //BubbleSort.sort(arrCopy);
+        //InsertionSort.sort(arrCopy);
+        //ShellSort.sort(arrCopy);
+        //MergeSort.sort(arrCopy, 0 , arrCopy.length - 1);
 
         /* 将两个数组进行比较, 验证算法是否存在问题 */
         boolean same = true;
