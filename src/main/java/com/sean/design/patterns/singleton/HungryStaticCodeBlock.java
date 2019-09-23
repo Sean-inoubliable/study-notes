@@ -18,7 +18,7 @@ public class HungryStaticCodeBlock {
 }
 
 /**
- * 饿汉式（静态变量）
+ * 饿汉式（静态变量代码块）
  */
 class SingletonHungryStaticCodeBlock {
 
