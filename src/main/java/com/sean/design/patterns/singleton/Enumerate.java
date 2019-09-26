@@ -19,8 +19,10 @@ public class Enumerate {
 }
 
 enum SingletonEnumerate {
+
     INSTANCE;
     public void sayOk() {
         System.out.println("ok ~");
     }
+
 }
