@@ -18,13 +18,19 @@ public class LazySafeSynMethod {
 
 class SingletonLazySafeSynMethod {
 
-    /* 1. 构造器私有化操作 */
-    private SingletonLazySafeSynMethod() {}
-
-    /* 2. 类的内部创建对象 */
+    /* 1. 持有私有静态实例，防止被引用，此处赋值为null，目的是实现延迟加载 */
     private static SingletonLazySafeSynMethod instance;
 
-    /* 3. 提供一个静态的共有方法，加入了同步代码块，解决线程不安全问题 */
+    /* 2. 私有构造方法，防止被实例化 */
+    private SingletonLazySafeSynMethod() {}
+
+    /* 3. 静态工程方法，创建实例 */
+    /**
+     * synchronized关键字锁住的是这个对象，
+     * 这样的用法，在性能上会有所下降，
+     * 因为每次调用getInstance()，都要对对象上锁。
+     * 事实上，只有在第一次创建对象的时候需要上锁，之后就不需要了
+     */
     public static synchronized SingletonLazySafeSynMethod getInstance() {
         if (instance == null) { instance = new SingletonLazySafeSynMethod(); }
         return instance;

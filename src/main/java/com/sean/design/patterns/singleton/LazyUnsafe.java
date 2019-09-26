@@ -18,15 +18,17 @@ public class LazyUnsafe {
 
 class SingletonLazyUnsafe {
 
-    /* 1. 构造器私有化操作 */
-    private SingletonLazyUnsafe() {}
-
-    /* 2. 类的内部创建对象 */
+    /* 1. 持有私有静态实例，防止被引用，此处赋值为null，目的是实现延迟加载 */
     private static SingletonLazyUnsafe instance;
 
-    /* 3. 提供一个静态的共有方法，当使用该方法时，再去创建 instance */
+    /* 2. 私有构造方法，防止被实例化 */
+    private SingletonLazyUnsafe() {}
+
+    /* 3. 静态工程方法，创建实例 */
     public static SingletonLazyUnsafe getInstance() {
-        if (instance == null) { instance = new SingletonLazyUnsafe(); }
+        if (instance == null) {
+            instance = new SingletonLazyUnsafe();
+        }
         return instance;
     }
 
