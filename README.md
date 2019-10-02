@@ -18,3 +18,4 @@
         - [设计模式的七大原则及分类](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/3.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99%E5%8F%8A%E5%88%86%E7%B1%BB.md)
         - [设计模式 - 单例模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/4.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
         - [设计模式 - 工厂方法模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/5.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.md)
+        - [设计模式 - 抽象工厂模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/6.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
