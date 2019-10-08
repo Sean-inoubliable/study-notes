@@ -64,6 +64,7 @@ public class Sheep implements Cloneable {
         } catch ( Exception e ){
             System.out.println(e.getMessage());
         }
+
         return sheep;
     }
 }

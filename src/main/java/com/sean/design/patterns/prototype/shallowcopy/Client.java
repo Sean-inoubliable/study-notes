@@ -6,6 +6,7 @@ package com.sean.design.patterns.prototype.shallowcopy;
  * @Date: 2019/9/26 0026 11:18
  */
 public class Client {
+
     public static void main(String[] args) {
 
         System.out.println(" 原型模式完成对象的创建");
