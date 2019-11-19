@@ -21,3 +21,4 @@
     - [设计模式 - 抽象工厂模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/6.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
     - [设计模式 - 原型模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/7.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.md)
     - [设计模式 - 建造者模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/8.%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.md)
+    - [设计模式 - 建造者模式](https://github.com/Sean-inoubliable/study-notes/blob/master/src/main/resources/Design.patterns/9.%20设计模式%20-%20适配器模式.md)
