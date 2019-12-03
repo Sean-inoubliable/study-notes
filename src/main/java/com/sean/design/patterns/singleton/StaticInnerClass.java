@@ -2,6 +2,10 @@ package com.sean.design.patterns.singleton;
 
 /**
  * @Description: 设计模式 - 单例模式 - 静态内部类（JVM类装载机制）
+ *
+ * JVM 保证单例
+ * 加载外部类时不会加载内部类，这样可以实现懒加载
+ *
  * @Author: Sean
  * @Date: 2019/9/23 0023 18:59
  */
