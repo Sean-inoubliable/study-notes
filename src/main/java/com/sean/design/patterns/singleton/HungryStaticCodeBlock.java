@@ -26,7 +26,7 @@ class SingletonHungryStaticCodeBlock {
     private SingletonHungryStaticCodeBlock() { }
 
     /* 2. 类的内部创建对象 */
-    private static SingletonHungryStaticCodeBlock instance;
+    private static final SingletonHungryStaticCodeBlock instance;
 
     /* 3. 静态代码块中创建单例对象 */
     static { instance = new SingletonHungryStaticCodeBlock(); }
