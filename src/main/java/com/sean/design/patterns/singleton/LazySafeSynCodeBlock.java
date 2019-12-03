@@ -27,6 +27,7 @@ class SingletonLazySafeSynCodeBlock {
     /* 3. 提供一个静态的共有方法，加入了同步代码块，解决线程不安全问题 */
     public static SingletonLazySafeSynCodeBlock getInstance() {
         if (instance == null) {
+            /* 妄图通过减小同步代码块的方式提高效率。结论：不可行 */
             synchronized (SingletonLazySafeSynCodeBlock.class) {
                 instance = new SingletonLazySafeSynCodeBlock();
             }

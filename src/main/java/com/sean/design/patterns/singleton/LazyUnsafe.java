@@ -2,6 +2,10 @@ package com.sean.design.patterns.singleton;
 
 /**
  * @Description: 设计模式 - 单例模式 - 懒汉式（线程不安全）
+ *
+ * lazy loading
+ * 达到了按需初始化的目的，但带来了线程不安全的隐患
+ *
  * @Author: S.Xinlei
  * @Date: 2019/9/23 0023 18:01
  */
